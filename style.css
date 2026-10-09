@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(136, 127, 127);
+}
+
+.container {
+    width: 745px;
+    height: 745px;
+
+    display: grid;
+
+    grid-template-columns: 94px 88px 261px 100px 107px 45px;
+    grid-template-rows: 88px 178px 172px 83px 80px 44px 40px;
+
+    gap: 10px;
+
+    background: #111;
+}
+
+.a {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    background: white;
+}
+
+
+.b {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background: white;
+}
+
+
+.c {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+    background: #fff000;
+}
+
+.d {
+    grid-column: 6 / 7;
+    grid-row: 1 / 2;
+    background: white;
+}
+
+
+.e {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background: white;
+}
+
+.f {
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background: #ff1111;
+}
+
+
+.g {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    background: #fff000;
+}
+
+
+.h {
+    grid-column: 6 / 7;
+    grid-row: 2 / 5;
+    background: white;
+}
+
+
+.i {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    background: white;
+}
+
+
+.j {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background: white;
+  
+}
+
+
+.k {
+    grid-column: 5 / 6;
+    grid-row: 3/ 4;
+    background: white;
+}
+
+
+.l {
+    grid-column: 2 / 3;
+    grid-row: 4 / 7;
+    background: #050505;
+    width: 190%;
+    height: 77%;
+}
+
+
+.m {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background: white;
+    width: 70%;
+    justify-self: end;
+}
+
+
+.n {
+    grid-column: 4 / 6;
+    grid-row: 4 / 5;
+    background: white;
+}
+
+
+.o {
+    grid-column: 1 / 2;
+    grid-row: 5 / 8;
+    background: #fff000;
+}
+
+.p {
+    grid-column: 2 / 3;
+    grid-row: 6 / 8;
+    background: white;
+    height: 100%;
+    width: 190%;
+}
+
+
+.q {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    background: white;
+    width: 70%;
+    justify-self: end;
+}
+
+
+.r {
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+    background: #050505;
+    width: 70%;
+    justify-self: end;
+}
+
+.s {
+    grid-column: 4 / 6;
+    grid-row: 5 / 7;
+    background: #3038bd;
+}
+
+
+.t {
+    grid-column: 6 / 7;
+    grid-row: 5 / 8;
+    background: #ff5a32;
+}
+
+
+.u {
+    grid-column: 3 / 6;
+    grid-row: 7 / 8;
+    background: white;
+    width: 84%;
+    justify-self: end;
+}
